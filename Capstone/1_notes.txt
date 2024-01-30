@@ -1,0 +1,50 @@
+Lab 1 Notes
+Creating dataframe from api
+
+Import Libraries
+- requests
+- pandas
+- numpy
+- datetime
+- from pandas import json_normalize()
+- json
+- (optional) format jupyter display using "pd.set_option('display.max_columns', None)" and 
+    "pd.set_option('display.max_colwidth', None)
+
+Define helper functions
+- extract information from API using id numbers
+- append extracted data to corresponding columns
+
+Request launch data from API
+
+Decode into a Pandas dataframe using .json_normalize()
+
+Filter dataset using contraints and further formatting
+
+Create global variables
+    BoosterVersion = []
+    PayloadMass = []
+    Orbit = []
+    LaunchSite = []
+    Outcome = []
+    Flights = []
+    GridFins = []
+    Reused = []
+    Legs = []
+    LandingPad = []
+    Block = []
+    ReusedCount = []
+    Serial = []
+    Longitude = []
+    Latitude = []
+
+Use helper functions to populate dataframe
+
+Combine columns in dictionary - then turn into dataframe
+
+Further filter dataset and reorganize values
+
+Data Wrangling
+- Deal with missing values
+
+Save to csv!
